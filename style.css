@@ -9,6 +9,8 @@ body {
 }
 
 .navlink {
+  display: flex;
+    justify-content: space-around;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #676c6d;
@@ -16,20 +18,18 @@ body {
 }
 
 .navlink h1{
-    display: inline-block;
     font-size: 48px;
     color: #f4f7f8;
     text-align: end;
 }
 
 header nav ul {
-    position: relative;
-    left: 450px;
-    bottom: 30px;
+    bottom: 15px;
     list-style-type: none;
 }
 
 header nav ul li {
+  margin-top: 20px;
     display: inline-block;
     margin-left: 50px; 
 }
@@ -54,6 +54,7 @@ a {
     float: right;
     margin-bottom: 60px;
     margin-left: 25px;
+    margin-top: 40px;
 }
 article {
      display: inline-block;
