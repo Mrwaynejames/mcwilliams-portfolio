@@ -54,23 +54,23 @@ a {
     float: right;
     margin-bottom: 60px;
     margin-left: 25px;
-    }
-    article {
-        display: inline-block;
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-    p {
-        font-size: 24px;
-    }
-    .about {
-        margin-bottom: 25px;
-        padding: 50px;
-        height: 300px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: #0072bb;
-        color: #ffffff;
-    }
+}
+article {
+     display: inline-block;
+     margin-left: 25px;
+    margin-right: 25px;
+}
+p {
+     font-size: 24px;
+}
+.about {
+    margin-bottom: 25px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
 main h2 {
     text-align: center;
@@ -82,24 +82,89 @@ main h2 {
     position: relative;
     bottom: 75px;  
 }
-.card {
+.card-header {
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-header img {
+    align-content: center;
+    border-radius: 25px;
     border-style: solid;
-    border-width: 1px;
+    border-color: #000304;
+    width: 100%;
+  }
+
+  .card-header img:hover {
+    border-color: #85f900;
+  }
+
+  .card-header p {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 25px;
+    background: #676c6d;
+    color: #fff;
+  }
+
+  .card-header p:hover {
+    background: #85f900;
+    color: #000304;
+  }
+
+.card img {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #000304;
+    width: 100%;
+}
+
+.card {
     padding: 10px;
     float: left;
     width: 25%;
   }
-  .card header {
-    padding: 20px;
-  }
   
   .card p {
     text-align: center;
-  }
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 25px;
+    background: #676c6d;
+    color: #fff;
+    }
+
+    .card p:hover {
+        background: #85f900;
+        color: #000304;
+    }
   
   .card img {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #000304;
     width: 100%;
   }
+
+  .card img:hover {
+    border-color: #85f900
+  }
+  footer {
+    align-content: center;
+    text-align: center;
+  }
+  .contact {
+    display: inline-block;
+    padding: 25px;
+  }
+
+  .contact header {
+    text-align: center;
+  }
+
   @media screen and (max-width: 992px) {
     .card {
       width: 50%;}
