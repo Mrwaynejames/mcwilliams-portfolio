@@ -144,9 +144,9 @@ main h2 {
     color: #fff;
     }
 
-    .card p:hover {
-        background: #85f900;
-        color: #000304;
+  .card p:hover {
+      background: #85f900;
+      color: #000304;
     }
   
   .card img {
@@ -159,16 +159,19 @@ main h2 {
   .card img:hover {
     border-color: #85f900
   }
+
+  footer h2 {
+    justify-content: center;
+      text-align: center;
+      font-size: 30px;
+  }
   .contact {
     display: inline-block;
     padding: 25px;
-    align-content: center;
-    text-align: center;
-    position: relative;
-    left: 100px;
   }
-
-
+  footer {
+    margin-left: 22%;
+    margin-right: 20%;
 
 @media screen and (max-width: 992px) {
   .card {
