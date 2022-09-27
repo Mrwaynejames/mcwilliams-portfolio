@@ -56,13 +56,19 @@ a {
     margin-left: 25px;
     margin-top: 40px;
 }
+article h2 {
+  margin-right: 25%;
+  padding-right: 25px;
+}
 article {
      display: inline-block;
      margin-left: 25px;
     margin-right: 25px;
 }
+
 p {
      font-size: 24px;
+     text-align: center;
 }
 .about {
     margin-bottom: 25px;
@@ -74,12 +80,12 @@ p {
 }
 
 main h2 {
+  justify-content: center;
     text-align: center;
     font-size: 30px;
 }
 
 .about img {
-    max-width: 300px;
     position: relative;
     bottom: 75px;  
 }
@@ -153,24 +159,33 @@ main h2 {
   .card img:hover {
     border-color: #85f900
   }
-  footer {
-    align-content: center;
-    text-align: center;
-  }
   .contact {
     display: inline-block;
     padding: 25px;
-  }
-
-  .contact header {
+    align-content: center;
     text-align: center;
+    position: relative;
+    left: 100px;
   }
 
-  @media screen and (max-width: 992px) {
-    .card {
-      width: 50%;}
+
+
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%;}
 }
 @media screen and (max-width: 768px) {
     .card {
-      width: 100%;}
+      width: 50%;}
+      article p {
+        font-size: 21px;
+      }
+    }
+    @media screen and (max-width: 650px) {
+      article p {
+        font-size: 16px;
+        }
+        article h2 {
+          margin-right: 35%;
+        }
     }
